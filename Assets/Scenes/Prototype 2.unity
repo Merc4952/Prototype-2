@@ -394,6 +394,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f471b72419cfd4ba93210e8f7dbaef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1609453907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609453909}
+  - component: {fileID: 1609453908}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1609453908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609453907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e34d065c6a0a4e49b44af71343f4bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 8865942240378475396, guid: 5a6c685e626821047971a7399635bb3c, type: 3}
+  - {fileID: 4773448248788197884, guid: 05eb6b614d6b911458e750ea8018059f, type: 3}
+  - {fileID: 1524095303398196473, guid: a068d58faf16af2488f0f6f9871331d2, type: 3}
+  spawnRangeX: 10
+  spawnPosZ: 10
+--- !u!4 &1609453909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609453907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6041563, y: 1.2474861, z: 5.958005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2070194289
 PrefabInstance:
   m_ObjectHideFlags: 0
