@@ -15,11 +15,13 @@ public class DestoyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      // if animals leave the screen bounds, they disappear and the game ends
        if (transform.position.z > topBound)
     {
          Destroy(gameObject);
     } else if (transform.position.z < lowerBound)
        {
+         Debug.Log("Game Over!");
          Destroy(gameObject);
        }
     }
