@@ -13,6 +13,7 @@ private float spawnInterval = 1.5f;
     // Start is called before the first frame update
     void Start()
     {
+      // at game start, start spawning animals
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
@@ -21,6 +22,7 @@ private float spawnInterval = 1.5f;
     {
        
     }
+    // spawn animal randomly in the boundaries
     void SpawnRandomAnimal()
     {
         int animalIndex = Random.Range(0, animalPrefabs.Length);
